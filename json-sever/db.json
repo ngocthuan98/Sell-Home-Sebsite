@@ -1,0 +1,297 @@
+{
+  "home": [
+    {
+      "information": {
+        "title": "Bán nhà mặt tiền đường Nguyễn Hoàng,quận Hải Châu ",
+        "description": "+Diện tích ngang 17.5m x dài 30m (nở hậu 19.2m) DTCN 560,2m2\n+Kết cấu hiện đang trong quá trình xây dựng tòa nhà Building văn phòng 10 tầng\n+Vị trí sáng đẹp, lòng đường 20m, có lề đường 5m, trục đường thương hiệu kinh doanh sầm uất, khuôn đất lớn hiếm có khu vực\n+Pháp lý có thể giao dịch mua bán theo tiến độ xây dựng hoặc xây dựng hoàn tất rồi bán tùy nhu cầu khách hàng tại từng thời điểm\n+Liên hệ 0901494902 Mai Hưng Long.",
+        "price": 10000000000,
+        "priceRent": 0,
+        "selectHome": "Home",
+        "selectBuy": "Buy",
+        "area": 150,
+        "path": "bán-nhà-mặt-tiền-đường-nguyễn-hoàng-quận-hải-châu"
+      },
+      "street": {
+        "address": "31 nguyen hoang",
+        "wards": "Hải Châu",
+        "city": "Đà Nẵng"
+      },
+      "detail": {
+        "rooms": 3,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "image": [
+          "https://nhadatvui.vn/uploads/images/d40357444b380efec83e30cd65ace100.jpg",
+          "https://nhadatvui.vn/uploads/images/097e104a350286a4ce62dea92a6ec1bb.jpg",
+          "https://nhadatvui.vn/uploads/images/0acd135daf2b5a4d0690e713bea3a0b5.jpg",
+          "https://nhadatvui.vn/uploads/images/a0d78adddec574c21aac43f9f2cb7588.jpg"
+        ]
+      },
+      "utility": {
+        "Pool": "1",
+        "Garage": "0",
+        "Backyard": "0",
+        "Playground": "1",
+        "Laundry": "1",
+        "Gym": "1",
+        "RecreationRoom": "1",
+        "KitchenEquipment": "1",
+        "SolarPower": "1",
+        "AirConditioning": "1",
+        "Heater": "1",
+        "Ventilation": "1",
+        "WasherDryer": "0",
+        "SmokeExtractor": "0",
+        "Elevator": "0",
+        "Wifi": "0"
+      },
+      "createdAt": 1668157142659,
+      "id": 3
+    },
+    {
+      "information": {
+        "title": "Bán nhà ngõ 371 Kim Mã",
+        "description": "NHÀ THẬT – CHỦ THẬT, SỔ ĐỎ CHÍNH CHỦ, SẴN SÀNG GIAO DỊCH\nCHÍNH CHỦ cần bán nhà ngõ 371 Kim Mã, thông tin và ảnh như sau:\n– Diện tích: 37.7 m2 sử dụng (34.5m2 diện tích sổ), 6 tầng, 3 phòng ngủ, 3 nhà vệ sinh.\n– Ngõ thông 371 và 409 Kim Mã, ngõ 2 xe máy tránh nhau, cách 20m ra đường oto, đi 10m lên đường lớn Kim Mã.\n– Địa chỉ nhà: Số 3 ngõ 371/2/10 Kim Mã ( các bác cứ qua xem vị trí trước thoải mái)\n– Hướng nhà: chính Bắc\n– Mặt tiền: 3.5m\n– Nhà xây hợp lý, thiết kế các phòng rộng rãi,\n– Gần chợ, xung quanh có các trường cấp 1 Phan Chu Trinh, cấp 2,3, khu vực dân trí cao, đối diện Vinhomes Metropolis, Lotte\n– Sổ đỏ chính chủ.\n– Liên hệ chủ nhà: Cô Hương – 0983.01.01.68",
+        "price": "6000000000",
+        "priceRent": 0,
+        "selectHome": "Home",
+        "selectBuy": "Buy",
+        "area": "80",
+        "path": "bán-nhà-ngõ-371-kim-mã"
+      },
+      "street": {
+        "address": "3 ngõ 371/2/10 Kim Mã",
+        "wards": "Liên Chiểu",
+        "city": "Đà Nẵng"
+      },
+      "detail": {
+        "rooms": "3",
+        "bedrooms": "3",
+        "bathrooms": "3",
+        "image": [
+          "https://batdongsancu.com/wp-content/uploads/2022/10/1-2-1.jpg",
+          "https://batdongsancu.com/wp-content/uploads/2022/10/2-5.jpg",
+          "https://batdongsancu.com/wp-content/uploads/2022/10/3-3.jpg",
+          "https://batdongsancu.com/wp-content/uploads/2022/10/4-3.jpg",
+          "https://batdongsancu.com/wp-content/uploads/2022/10/5-3.jpg"
+        ]
+      },
+      "utility": {
+        "Pool": "1",
+        "Garage": "0",
+        "Backyard": "0",
+        "Playground": "0",
+        "Laundry": "1",
+        "Gym": "0",
+        "RecreationRoom": "0",
+        "KitchenEquipment": "1",
+        "SolarPower": "0",
+        "AirConditioning": "1",
+        "Heater": "1",
+        "Ventilation": "0",
+        "WasherDryer": "1",
+        "SmokeExtractor": "0",
+        "Elevator": "0",
+        "Wifi": "1"
+      },
+      "createdAt": 1669283791979,
+      "id": 4
+    },
+    {
+      "information": {
+        "title": "Khu Villa view công viên đường 36m",
+        "description": "Ban 126 căn Shop Villa trong khu resort The Arena đẳng cấp 5*\nThe Arena Cam Ranh: Tọa lạc trên đại lộ Nguyễn Tất Thành( Đường nối giữa Nha Trang-Sân bay Cam Ranh). Sở hữu hơn 3500 căn hộ và 126 shop villa nằm trong phố đi bộ sầm uất bậc nhất cùng với bờ biển Bãi Dài thơ mộng,cát trắng mịn.\nNhững lợi thế vượt trội khi thuê Shop Villa tại The Arena Cam Ranh:\n– Cách Sân Bay Cam Ranh chỉ 3p di chuyển.\n– Diện tích: 17,6 x 8,6 rộng rãi phù hợp cho mọi hình thức kinh doanh.\n– Sử dụng tiện ích nội khu đa dạng, đẳng cấp, chuẩn 5*\n– Sở hữu 2 mặt tiền trên phố đi bộ sầm uất nhất khu vực hoạt động xuyên suốt 24/7.\n– Nơi tập trung nhiều du khách và khách hàng thượng lưu.\n– Thiết kế theo kiểu biệt thự song lập 3 tầng, thoải mái kết hợp kinh doanh-nghỉ dưỡng.\n– Gần khu đô thị mới Cam Lâm.\nMiễn phí thuê năm đầu giành cho 5 đối tác đầu tiên đến tham quan resort.",
+        "price": "10000000000",
+        "priceRent": "0",
+        "selectHome": "Home",
+        "selectBuy": "Buy",
+        "area": "120",
+        "path": "khu-villa-view-công-viên-đường-36m"
+      },
+      "street": {
+        "address": " 15 Nguyễn Tất Thành",
+        "wards": "Thanh Khê",
+        "city": "Đà Nẵng"
+      },
+      "detail": {
+        "rooms": "5",
+        "bedrooms": "4",
+        "bathrooms": "4",
+        "image": [
+          "https://nhadatvui.vn/uploads/images/99b78db729170d976e8068a869259d04.jpg",
+          "https://nhadatvui.vn/uploads/images/79c588b0f7f81f458a10a4fb42e74d39.jpg",
+          "https://nhadatvui.vn/uploads/images/bc4f4762dae9cf6a0da4f1e423b22afc.jpg",
+          "https://nhadatvui.vn/uploads/images/f79e40556d561ea57aef1cd57c4dd23a.jpg",
+          "https://nhadatvui.vn/uploads/images/44e037a8966b7d945a0b8335943a008f.jpg",
+          "https://nhadatvui.vn/uploads/images/55031c5a9ff1c382b7c8d71fa76f9aa9.jpg"
+        ]
+      },
+      "utility": {
+        "Pool": "1",
+        "Garage": "1",
+        "Backyard": "0",
+        "Playground": "0",
+        "Laundry": "1",
+        "Gym": "1",
+        "RecreationRoom": "0",
+        "KitchenEquipment": "1",
+        "SolarPower": "0",
+        "AirConditioning": "1",
+        "Heater": "1",
+        "Ventilation": "0",
+        "WasherDryer": "1",
+        "SmokeExtractor": "0",
+        "Elevator": "1",
+        "Wifi": "1"
+      },
+      "createdAt": 1669284238181,
+      "id": 5
+    },
+    {
+      "information": {
+        "title": "Bán nền đất  Đà Nẵng giá chỉ từ 268tr",
+        "description": "-Miếng đất mặt tiền đường\n-Đường ngoại khu 22m ( đường nhựa )\n-Đường nội khu 12m ( cả vỉa hè )\n-Hạ tầng hoàn thiện\n-Điện nước đầy đủ\n-Dân cư hiện hữu . vị trí ngay trung tâm Phú Lộc\n-Liên hệ chủ nhà : \n-Giá 900tr có thương lượng nếu thiện chí\n-Bao công chứng sang tên, chồng tiền nhận sổ",
+        "price": "1000000000",
+        "priceRent": 0,
+        "selectHome": "Land",
+        "selectBuy": "Buy",
+        "area": "100",
+        "path": "bán-nền-đất-đà-nẵng-giá-chỉ-từ-268tr"
+      },
+      "street": {
+        "address": "167 Nguyễn Công Trứ",
+        "wards": "Cẩm Lệ",
+        "city": "Đà Nẵng"
+      },
+      "detail": {
+        "rooms": 0,
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "image": [
+          "https://nhadatvui.vn/uploads/images/142623c98513553a14a1bf61a0e0959a.jpg",
+          "https://nhadatvui.vn/uploads/images/b9d8ee150c16ccca4e3f8befaf7a8be7.jpg",
+          "https://nhadatvui.vn/uploads/images/79337b6d3d209c4cb7a41237f998608a.jpg"
+        ]
+      },
+      "utility": {
+        "Pool": "0",
+        "Garage": "0",
+        "Backyard": "0",
+        "Playground": "0",
+        "Laundry": "0",
+        "Gym": "0",
+        "RecreationRoom": "0",
+        "KitchenEquipment": "0",
+        "SolarPower": "0",
+        "AirConditioning": "0",
+        "Heater": "0",
+        "Ventilation": "0",
+        "WasherDryer": "0",
+        "SmokeExtractor": "0",
+        "Elevator": "0",
+        "Wifi": "0"
+      },
+      "createdAt": 1669284685793,
+      "id": 6
+    },
+    {
+      "information": {
+        "title": "Hơn 2000m2 có 6 mặt nền biệt thự Hoà Xuân",
+        "description": "+ Diện tích : 2500m2\n+ Sổ : 6 SRXD , 1 SRNN , 300m2 Bãi xe bán giấy tờ tay .\n+ Đường bê tông 4m\n+ Hướng : ĐN , TB , TN\n+ Giá : 55 tỷ TL nhẹ\n+ Tiện ích : Cách dinh 3 Đà lạt 900m , Cách Quảng Trường, Hồ xuân Hương 2km ,có sẵn 2 nhà gỗ nhỏ rất hợp làm cafe chill hay homestay , view cực đẹp .\nĐỊA ỐC FIVE STARS - ”Niềm tin là sức mạnh”\nĐịa chỉ: 153 Bùi Công Trừng, TP. Đà Nẵng",
+        "price": "55000000000",
+        "priceRent": 0,
+        "selectHome": "Land",
+        "selectBuy": "Buy",
+        "area": "2500",
+        "path": "hơn-2000m2-có-6-mặt-nền-biệt-thự-hoà-xuân"
+      },
+      "street": {
+        "address": "200 Bùi Công Trừng",
+        "wards": "Ngũ Hành Sơn",
+        "city": "Đà Nẵng"
+      },
+      "detail": {
+        "rooms": 0,
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "image": [
+          "https://nhadatvui.vn/uploads/images/42337644ae990d9a452fb703bfb9dfcc.jpg",
+          "https://nhadatvui.vn/uploads/images/0a5fd48d11db8486ec152e6018eb800e.jpg",
+          "https://nhadatvui.vn/uploads/images/7e8ea6929e294e299a69d22106e4a58b.jpg",
+          "https://nhadatvui.vn/uploads/images/766a7bdf60603e42b0abe4f063e99817.jpg",
+          "https://nhadatvui.vn/uploads/images/294c946010d17fd542d2a0fe7cb133ee.jpg"
+        ]
+      },
+      "utility": {
+        "Pool": "0",
+        "Garage": "1",
+        "Backyard": "0",
+        "Playground": "0",
+        "Laundry": "0",
+        "Gym": "0",
+        "RecreationRoom": "0",
+        "KitchenEquipment": "0",
+        "SolarPower": "1",
+        "AirConditioning": "0",
+        "Heater": "0",
+        "Ventilation": "0",
+        "WasherDryer": "0",
+        "SmokeExtractor": "0",
+        "Elevator": "0",
+        "Wifi": "1"
+      },
+      "createdAt": 1669373043138,
+      "id": 7
+    }
+  ],
+  "listAgent": [
+    {
+      "id": 1,
+      "name": "Nguyễn Ngọc Thuận",
+      "phone": "0931695423",
+      "mail": "ngocthuandn1998@gmail.com",
+      "facebook": "https://www.facebook.com/ngocthuan.nguyen.54584",
+      "consultingArea": "Quận Hải Châu"
+    },
+    {
+      "id": 2,
+      "name": "Bùi Quốc Tấn",
+      "phone": "0354010680",
+      "mail": "Tanbui@gmail.com",
+      "facebook": "https://www.facebook.com/scarringinlife",
+      "consultingArea": "Quận Thanh Khê"
+    },
+    {
+      "id": 3,
+      "name": "Nguyễn Tiến Đạt",
+      "phone": "0912433179",
+      "mail": "TienDat@gmail.com",
+      "facebook": "https://www.facebook.com/ngocthuan.nguyen.54584",
+      "consultingArea": "Quận Liên Chiểu"
+    },
+    {
+      "id": 4,
+      "name": "Lê Tuấn Anh",
+      "phone": "0974616210",
+      "mail": "anhlt@gmail.com",
+      "facebook": "https://www.facebook.com/letuananh2313",
+      "consultingArea": "Quận Cẩm Lệ"
+    },
+    {
+      "id": 5,
+      "name": "Trần Anh Kiệt",
+      "phone": "0379366250",
+      "mail": "anhkiet@gmail.com",
+      "facebook": "https://www.facebook.com/tak269",
+      "consultingArea": "Quận Ngũ Hành Sơn"
+    },
+    {
+      "id": 6,
+      "name": "Lê Quốc Tài",
+      "phone": "0932599100",
+      "mail": "Taile@gmail.com",
+      "facebook": "https://www.facebook.com/ngocthuan.nguyen.54584",
+      "consultingArea": "Quận Sơn Trà"
+    }
+  ]
+}

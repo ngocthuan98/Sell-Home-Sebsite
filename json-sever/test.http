@@ -1,0 +1,28 @@
+GET http://localhost:3000/api/accounts
+###
+//xoa api
+DELETE http://localhost:3000/api/accounts/6
+
+###
+// them api
+POST http://localhost:3000/api/accounts/
+Content-type:application/json
+{
+    "email":"bao@gmail.com",
+    "password":"abc"
+}
+
+###
+//Update
+PATCH  http://localhost:3000/api/accounts/
+
+Content-type:application/json
+{
+    "name":"bao",
+    "email":"bao12@gmail.com",
+    "password":"abc"
+}
+
+###
+GET http://localhost:3000/api/registers
+###
