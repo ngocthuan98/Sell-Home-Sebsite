@@ -38,6 +38,7 @@ function Data() {
     loadData()
   }, [])
 
+
   const deletePost = (id) => {
     fetch(`http://localhost:5000/api/home/${id}`, {
       method: 'DELETE',
@@ -65,7 +66,6 @@ function Data() {
       </div>
       <div className="info-homeAdmin">
         <ul className="list-homeAdmin">
-          <li>ID</li>
           <li>Title</li>
           <li>Type</li>
           <li>Image</li>
@@ -82,6 +82,7 @@ function Data() {
                 type={home.information.selectHome}
                 image={home.detail.image[0]}
                 price={home.information.price}
+                path={home.information.path}
                 deletePost={deletePost}
               />
             )

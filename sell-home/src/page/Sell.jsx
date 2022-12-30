@@ -103,15 +103,6 @@ function Sell() {
         Wifi: checkbox.Wifi ? '1' : '0',
       },
     }
-
-    // const test = {
-    //   "description": "Đất test",
-    //   "idContent": 5,
-    //   "priceIfRenting": 1200,
-    //   "typeOfRealEstase": "2",
-    //   "rentOfSell": "2",
-    //   "price": 100000
-    // }
     try {
       const res = await fetch('http://localhost:5000/api/home', {
         method: 'POST',

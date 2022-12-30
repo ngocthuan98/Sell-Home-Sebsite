@@ -56,7 +56,7 @@ function App() {
       <Router>
         {!user ? <NavbarSecond /> : <Navbar />}
         <Routes>
-          {user?.email === 'ngocthuandn98@gmail.com' ? (
+          {user?.email === 'ngocthuandn1998@gmail.com' ? (
             <Fragment>
               <Route path="/" element={<Admin />} />
               <Route path="/buy" element={<Buy />} />

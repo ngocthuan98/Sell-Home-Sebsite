@@ -55,6 +55,11 @@
 }
 
 /* admin home */
+.admin-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .searchAdmin {
   width: 40%;
   position: relative;
@@ -75,6 +80,13 @@
   height: 3rem;
   width: 3rem;
   color: rgba(0, 0, 0, 0.433);
+}
+.add > svg{
+  color:rgba(0, 0, 0, 0.433);;
+  height: 5rem;
+  width: 5rem;
+  margin: 3rem 2rem 0 0 ;
+  cursor: pointer;
 }
 .info-homeAdmin {
   width: 98%;
@@ -98,20 +110,17 @@
   text-align: center;
 }
 
-.list-homeAdmin > li:first-child {
-  flex: 5%;
-}
-.list-homeAdmin > li:nth-child(2) {
+.list-homeAdmin > li:first-child   {
   flex: 30%;
 }
-.list-homeAdmin > li:nth-child(3) {
+.list-homeAdmin > li:nth-child(2) {
   flex: 15%;
+}
+.list-homeAdmin > li:nth-child(3) {
+  flex: 28%;
 }
 .list-homeAdmin > li:nth-child(4) {
-  flex: 33%;
-}
-.list-homeAdmin > li:nth-child(5) {
-  flex: 15%;
+  flex: 20%;
 }
 .list-homeAdmin > li:last-child {
   flex: 7%;
