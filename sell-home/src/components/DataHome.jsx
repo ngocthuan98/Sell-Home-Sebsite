@@ -37,6 +37,9 @@ function Data() {
   useEffect(() => {
     loadData()
   }, [])
+  
+// const info2 = info.map((home)=>(home.content.title))
+//   console.log(info2)
 
 
   const deletePost = (id) => {
