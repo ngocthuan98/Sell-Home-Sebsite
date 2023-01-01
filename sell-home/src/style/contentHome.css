@@ -44,8 +44,7 @@
 .buyImg > img {
   width: 100%;
   height: inherit;
-  object-fit: cover;
-  border-radius: 1rem;
+  background-repeat: no-repeat;
 }
 .imgTop > svg {
   font-size: 5rem;

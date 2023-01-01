@@ -9,16 +9,17 @@
 }
 .buy-left{
     flex:50%;
-    height:auto;
+    height:120vh;
 }
 .buy-right{
     flex:50%;
-    height:100%;
+    height:120vh;
 }
 .right-content{
     display:grid;
     grid-template-columns: auto auto ;
     gap:2rem;
+    height: 110vh;
 }
 
 /* Map */
