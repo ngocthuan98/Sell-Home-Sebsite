@@ -1,23 +1,25 @@
-import { useState, useEffect } from 'react'
-import '../style/admin.css'
-import SearchIcon from '@mui/icons-material/Search'
-import HomeAdmin from './HomeAdmin'
-import Paginate from 'react-paginate'
+import { useState, useEffect } from 'react';
+import '../style/admin.css';
+import SearchIcon from '@mui/icons-material/Search';
+import HomeAdmin from './HomeAdmin';
+import Paginate from 'react-paginate';
+
+import 'firebase/storage';
 
 function Data() {
-  const [info, setInfo] = useState([])
-  const [search,setSearch] = useState("")
-  const [currentPage, setCurrentPage] = useState(0)
-  const [postPerPage] = useState(3)
+  const [info, setInfo] = useState([]);
+  const [search, setSearch] = useState('');
+  const [currentPage, setCurrentPage] = useState(0);
+  const [postPerPage] = useState(3);
 
-  const indexOfFirstPost = currentPage * postPerPage
-  const indexOfLastPost = indexOfFirstPost + postPerPage
-  const currentInfo = info.slice(indexOfFirstPost, indexOfLastPost)
+  const indexOfFirstPost = currentPage * postPerPage;
+  const indexOfLastPost = indexOfFirstPost + postPerPage;
+  const currentInfo = info.slice(indexOfFirstPost, indexOfLastPost);
 
-  const pageCount = Math.ceil(info.length / postPerPage)
+  const pageCount = Math.ceil(info.length / postPerPage);
   const changePage = ({ selected }) => {
-    setCurrentPage(selected)
-  }
+    setCurrentPage(selected);
+  };
 
   const loadData = async () => {
     fetch('http://localhost:5000/api/home', {
@@ -29,17 +31,15 @@ function Data() {
       }),
     })
       .then(async (res) => {
-        return res.json()
+        return res.json();
       })
-      .then((receivedData) => setInfo(receivedData))
-  }
+      .then((receivedData) => setInfo(receivedData));
+  };
 
   useEffect(() => {
-    loadData()
-  }, [])
-  
-// const info2 = info.map((home)=>(home.content.title))
-//   console.log(info2)
+    loadData();
+  }, []);
+
 
 
   const deletePost = (id) => {
@@ -53,18 +53,18 @@ function Data() {
     })
       .then((res) => {
         res.json().then((resp) => {
-          alert('delete successful')
-        })
-        loadData()
+          alert('delete successful');
+        });
+        loadData();
       })
       .catch((err) => {
-        console.error(err)
-      })
-  }
+        console.error(err);
+      });
+  };
   return (
     <div>
       <div className="searchAdmin">
-        <input type="text" placeholder="Search..." name="search" onChange={(e)=>setSearch(e.target.value)} />
+        <input type="text" placeholder="Search..." name="search" onChange={(e) => setSearch(e.target.value)} />
         <SearchIcon />
       </div>
       <div className="info-homeAdmin">
@@ -76,20 +76,22 @@ function Data() {
           <li>Action</li>
         </ul>
         <div>
-          {currentInfo.filter((home)=>home.information.title.includes(search)).map((home, index) => {
-            return (
-              <HomeAdmin
-                key={index}
-                id={home.id}
-                title={home.information.title}
-                type={home.information.selectHome}
-                image={home.detail.image[0]}
-                price={home.information.price}
-                path={home.information.path}
-                deletePost={deletePost}
-              />
-            )
-          })}
+          {currentInfo
+            .filter((home) => home.information.title.includes(search))
+            .map((home, index) => {
+              return (
+                <HomeAdmin
+                  key={index}
+                  id={home.id}
+                  title={home.information.title}
+                  type={home.information.selectHome}
+                  image={home.detail.image[0]}
+                  price={home.information.price}
+                  path={home.information.path}
+                  deletePost={deletePost}
+                />
+              );
+            })}
         </div>
         <div className="paginationAdmin">
           <Paginate
@@ -106,7 +108,7 @@ function Data() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Data
+export default Data;

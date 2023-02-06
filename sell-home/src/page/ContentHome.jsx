@@ -7,7 +7,7 @@ function ContentHome() {
 
   useEffect(() => {
     const loadData = async () => {
-      fetch('http://localhost:5000/api/home', {
+      fetch('https://9f89-116-103-16-230.ap.ngrok.io/view', {
         method: "get",
         headers: new Headers({
           "Access-Control-Allow-Origin": "*",
@@ -23,41 +23,42 @@ function ContentHome() {
     loadData()
   }, [])
 
+  console.log(data)
   return (
     <div>
       {data.map((home,index) => (
         <PageBuy
           key={index}
-          path={home.information.path}
-          title={home.information.title}
-          type={home.information.selectBuy}
-          kind={home.information.selectHome}
-          city={home.street.city}
-          ward={home.street.wards}
-          address={home.street.address}
+          path={home.content.path}
+          title={home.content.title}
+          type={home.content.selectBuy}
+          kind={home.content.selectHome}
+          city={home.location.city}
+          ward={home.location.wards}
+          address={home.location.address}
           image={home.detail.image}
-          price={home.information.price}
-          area={home.information.area}
+          price={home.content.price}
+          area={home.content.area}
           bedroom={home.detail.bedrooms}
           bathroom={home.detail.bathrooms}
           room={home.detail.rooms}
-          description={home.information.description}
-          pool={home.utility.Pool}
-          garage={home.utility.Garage}
-          backyard={home.utility.Backyard}
-          playground={home.utility.Playground}
-          laundry={home.utility.Laundry}
-          gym={home.utility.Gym}
-          recreation={home.utility.RecreationRoom}
-          kitchen={home.utility.KitchenEquipment}
-          solarPower={home.utility.SolarPower}
-          airCondition={home.utility.AirConditioning}
-          heater={home.utility.Heater}
-          ventilation={home.utility.Ventilation}
-          washer={home.utility.WasherDryer}
-          smoke={home.utility.SmokeExtractor}
-          elevator={home.utility.Elevator}
-          wifi={home.utility.Wifi}
+          description={home.content.description}
+          pool={home.utility.pool}
+          garage={home.utility.garage}
+          backyard={home.utility.backyard}
+          playground={home.utility.playground}
+          laundry={home.utility.laundry}
+          gym={home.utility.gym}
+          recreation={home.utility.recreationRoom}
+          kitchen={home.utility.kitchenEquipment}
+          solarPower={home.utility.solarPower}
+          airCondition={home.utility.airConditioning}
+          heater={home.utility.heater}
+          ventilation={home.utility.ventilation}
+          washer={home.utility.washerDryer}
+          smoke={home.utility.smokeExtractor}
+          elevator={home.utility.elevator}
+          wifi={home.utility.wifi}
           feature={home.utility}
         />
       ))}

@@ -50,17 +50,17 @@
     },
     {
       "information": {
-        "title": "Bán nhà ngõ 371 Kim Mã",
-        "description": "NHÀ THẬT – CHỦ THẬT, SỔ ĐỎ CHÍNH CHỦ, SẴN SÀNG GIAO DỊCH\nCHÍNH CHỦ cần bán nhà ngõ 371 Kim Mã, thông tin và ảnh như sau:\n– Diện tích: 37.7 m2 sử dụng (34.5m2 diện tích sổ), 6 tầng, 3 phòng ngủ, 3 nhà vệ sinh.\n– Ngõ thông 371 và 409 Kim Mã, ngõ 2 xe máy tránh nhau, cách 20m ra đường oto, đi 10m lên đường lớn Kim Mã.\n– Địa chỉ nhà: Số 3 ngõ 371/2/10 Kim Mã ( các bác cứ qua xem vị trí trước thoải mái)\n– Hướng nhà: chính Bắc\n– Mặt tiền: 3.5m\n– Nhà xây hợp lý, thiết kế các phòng rộng rãi,\n– Gần chợ, xung quanh có các trường cấp 1 Phan Chu Trinh, cấp 2,3, khu vực dân trí cao, đối diện Vinhomes Metropolis, Lotte\n– Sổ đỏ chính chủ.\n– Liên hệ chủ nhà: Cô Hương – 0983.01.01.68",
+        "title": "Bán nhà mặt tiền Lê Duẫn ",
+        "description": "NHÀ THẬT – CHỦ THẬT, SỔ ĐỎ CHÍNH CHỦ, SẴN SÀNG GIAO DỊCH\nCHÍNH CHỦ cần bán nhà mặt tiền Lê Duẫn, thông tin và ảnh như sau:\n– Diện tích: 37.7 m2 sử dụng (34.5m2 diện tích sổ), 6 tầng, 3 phòng ngủ, 3 nhà vệ sinh.\n– Ngõ thông 371 và 409 Kim Mã, ngõ 2 xe máy tránh nhau, cách 20m ra đường oto, đi 10m lên đường lớn Kim Mã.\n– Địa chỉ nhà: Số 3 ngõ 371/2/10 Kim Mã ( các bác cứ qua xem vị trí trước thoải mái)\n– Hướng nhà: chính Bắc\n– Mặt tiền: 3.5m\n– Nhà xây hợp lý, thiết kế các phòng rộng rãi,\n– Gần chợ, xung quanh có các trường cấp 1 Phan Chu Trinh, cấp 2,3, khu vực dân trí cao, đối diện Vinhomes Metropolis, Lotte\n– Sổ đỏ chính chủ.\n– Liên hệ chủ nhà: Cô Hương – 0983.01.01.68",
         "price": "6000000000",
         "priceRent": 0,
         "selectHome": "Home",
         "selectBuy": "Buy",
         "area": "80",
-        "path": "bán-nhà-ngõ-371-kim-mã"
+        "path": "bán-nhà-mặt-tiền-lê-duẫn"
       },
       "street": {
-        "address": "3 ngõ 371/2/10 Kim Mã",
+        "address": "5 Lê Duẫn",
         "wards": "Liên Chiểu",
         "city": "Đà Nẵng"
       },
@@ -148,7 +148,7 @@
     },
     {
       "information": {
-        "title": "Bán nền đất  Đà Nẵng giá chỉ từ 268tr",
+        "title": "Bán nền đất  Đà Nẵng",
         "description": "-Miếng đất mặt tiền đường\n-Đường ngoại khu 22m ( đường nhựa )\n-Đường nội khu 12m ( cả vỉa hè )\n-Hạ tầng hoàn thiện\n-Điện nước đầy đủ\n-Dân cư hiện hữu . vị trí ngay trung tâm Phú Lộc\n-Liên hệ chủ nhà : \n-Giá 900tr có thương lượng nếu thiện chí\n-Bao công chứng sang tên, chồng tiền nhận sổ",
         "price": "1000000000",
         "priceRent": 0,
@@ -210,9 +210,9 @@
         "city": "Đà Nẵng"
       },
       "detail": {
-        "rooms": 0,
-        "bedrooms": 0,
-        "bathrooms": 0,
+        "rooms": 4,
+        "bedrooms": 3,
+        "bathrooms": 3,
         "image": [
           "https://file.maumau.vn/public/nhadatvui/8928/1672379144138/1200-ae71a0e4-09a2-4264-a876-0972e103d350.jpg",
           "https://file.maumau.vn/public/nhadatvui/8928/1672379143734/1200-775ef08a-4504-4897-a06f-73c6f737c5b2.jpg",

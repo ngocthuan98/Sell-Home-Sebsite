@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+// // import { useState } from 'react'
 import '../style/contentSell.css'
 import { Link } from 'react-router-dom'
 import CloudUploadIcon from '@mui/icons-material/CloudUpload'
@@ -38,38 +38,7 @@ function Detail(props) {
       <div className="btn-Image">
         <CloudUploadIcon />
         <input type="file" name="images" onChange={props.onSelectFile} multiple accept="image/*" />
-      </div>
-      {props.selectedImages.length > 0 &&
-        (props.selectedImages.length > 10 ? (
-          <p className="error">
-            You can't upload more than 10 images! <br />
-            <span>
-              please delete <b> {props.selectedImages.length - 10} </b> of them
-            </span>
-          </p>
-        ) : (
-          <button
-            className="upload-btn"
-            onClick={() => {
-              console.log(props.selectedImages)
-            }}
-          >
-            UPLOAD {props.selectedImages.length} IMAGE
-            {props.selectedImages.length === 1 ? '' : 'S'}
-          </button>
-        ))}
-
-      <div className="images">
-        {props.selectedImages &&
-          props.selectedImages.map((image, index) => {
-            return (
-              <div key={image} className="picture">
-                <img src={image} alt="upload" />
-                <button onClick={()=>props.deleteHandler(image)}>Delete</button>
-                <p>{index + 1}</p>
-              </div>
-            )
-          })}
+        <button onClick={props.submit}>Upload</button>
       </div>
 
       <div className="btnContainer">

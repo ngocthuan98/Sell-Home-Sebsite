@@ -25,66 +25,6 @@ function Buy() {
       .then((receivedData) => setData(receivedData))
   }
 
-  // const loadData = async () => {
-  //   Promise.all([
-  //     fetch('http://localhost:5000/api/content', {
-  //       method: 'get',
-  //       headers: new Headers({
-  //         'Access-Control-Allow-Origin': '*',
-  //         'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-  //         'ngrok-skip-browser-warning': '69420',
-  //       }),
-  //     }),
-  //     fetch('http://localhost:5000/api/street', {
-  //       method: 'get',
-  //       headers: new Headers({
-  //         'Access-Control-Allow-Origin': '*',
-  //         'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-  //         'ngrok-skip-browser-warning': '69420',
-  //       }),
-  //     }),
-  //     fetch('http://localhost:5000/api/detail', {
-  //       method: 'get',
-  //       headers: new Headers({
-  //         'Access-Control-Allow-Origin': '*',
-  //         'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-  //         'ngrok-skip-browser-warning': '69420',
-  //       }),
-  //     }),
-  //     fetch('http://localhost:5000/api/utility', {
-  //       method: 'get',
-  //       headers: new Headers({
-  //         'Access-Control-Allow-Origin': '*',
-  //         'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-  //         'ngrok-skip-browser-warning': '69420',
-  //       }),
-  //     }),
-  //     fetch('http://localhost:5000/api/image', {
-  //       method: 'get',
-  //       headers: new Headers({
-  //         'Access-Control-Allow-Origin': '*',
-  //         'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-  //         'ngrok-skip-browser-warning': '69420',
-  //       }),
-  //     })
-  // ]).then(function (responses) {
-  //     // Get a JSON object from each of the responses
-  //     return Promise.all(responses.map(function (response) {
-  //         return response.json();
-  //     }));
-  // }).then(function (data) {
-  //     // Log the data to the console
-  //     // You would do something with both sets of data here
-  //     setInfo2(data)
-  // }).catch(function (error) {
-  //     // if there's an error, log it
-  //     console.log(error);
-  // });
-  // }
-
-
- 
-
   useEffect(() => {
     loadData()
   }, [])
